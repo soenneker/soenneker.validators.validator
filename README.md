@@ -8,5 +8,5 @@
 ## Installation
 
 ```
-Install-Package Soenneker.Validators.Validator
+dotnet add package Soenneker.Validators.Validator
 ```
