@@ -1,17 +1,16 @@
-using Soenneker.Tests.FixturedUnit;
-using Xunit;
+using Soenneker.Tests.HostedUnit;
 
 
 namespace Soenneker.Validators.Validator.Tests;
 
-[Collection("Collection")]
-public class ValidatorTests : FixturedUnitTest
+[ClassDataSource<Host>(Shared = SharedType.PerTestSession)]
+public class ValidatorTests : HostedUnitTest
 {
-    public ValidatorTests(Fixture fixture, ITestOutputHelper output) : base(fixture, output)
+    public ValidatorTests(Host host) : base(host)
     {
     }
 
-    [Fact]
+    [Test]
     public void Default()
     {
     }
