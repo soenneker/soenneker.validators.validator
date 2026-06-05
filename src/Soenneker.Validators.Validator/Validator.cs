@@ -6,6 +6,9 @@ namespace Soenneker.Validators.Validator;
 ///<inheritdoc cref="IValidator"/>
 public abstract class Validator : IValidator
 {
+    /// <summary>
+    /// Gets or sets logger.
+    /// </summary>
     public ILogger<Validator> Logger { get; set; }
 
     protected Validator(ILogger<Validator> logger)
