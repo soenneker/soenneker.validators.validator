@@ -3,11 +3,16 @@
 [![](https://img.shields.io/nuget/dt/Soenneker.Validators.Validator.svg?style=for-the-badge)](https://www.nuget.org/packages/Soenneker.Validators.Validator/)
 [![](https://img.shields.io/github/actions/workflow/status/soenneker/soenneker.validators.validator/codeql.yml?label=CodeQL&style=for-the-badge)](https://github.com/soenneker/soenneker.validators.validator/actions/workflows/codeql.yml)
 
-# ![](https://user-images.githubusercontent.com/4441470/224455560-91ed3ee7-f510-4041-a8d2-3fc093025112.png) Soenneker.Validators.Validator
-### A foundational object for all things related to validation
+# Soenneker.Validators.Validator
 
-## Installation
+A foundational object for all things related to validation.
 
-```
+## Install
+
+```bash
 dotnet add package Soenneker.Validators.Validator
 ```
+
+## What you get
+
+- `IValidator` — A foundational object for all things related to validation.
