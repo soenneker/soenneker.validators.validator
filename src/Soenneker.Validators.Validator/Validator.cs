@@ -3,7 +3,6 @@ using Soenneker.Validators.Validator.Abstract;
 
 namespace Soenneker.Validators.Validator;
 
-/// <inheritdoc cref="IValidator"/>
 public abstract class Validator : IValidator
 {
     /// <summary>
